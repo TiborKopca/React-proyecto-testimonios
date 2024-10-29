@@ -45,12 +45,15 @@ html,body{
 }
 
 h1 {
-  font-size: 2.5em;
   line-height: 1.1;
   max-width: 58.75rem;
   font-family: Lato, sans-serif;
   font-weight: 700;
   margin: 2.5rem 0;
+  min-width: 100%;
+  /* font-size: 2.5em; */
+  font-size:  clamp(2em, 3vw, 5em);
+  text-align: center;
 }
 
 .app{
@@ -71,6 +74,7 @@ h1 {
   align-items: center;
   justify-content: center;
 }
+
 
 /* .card {
   padding: 2em;
